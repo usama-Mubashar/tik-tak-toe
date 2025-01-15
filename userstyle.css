@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+
+body{
+    background-color :#548687; 
+    text-align: center;
+    
+
+}
+.players{
+   
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    height: 100vh;
+    justify-content: center;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;;
+}
+
+
+.playertag{
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+.nextpagebtn{
+    
+    display:block;
+    padding:0.5rem;
+    font-size:1rem;
+    background-color: #191913;
+    color:#fff;
+    border-radius: 0.5rem;
+    border: none;
+}
+.set_text{
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
